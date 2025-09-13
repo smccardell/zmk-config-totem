@@ -94,7 +94,7 @@ label= "BASE"                              ;
 label= "NAVI"                              ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃           ┃   HOME    ┃     UP    ┃    END    ┃   P UP    ┃   ┃     *     ┃     7     ┃     8     ┃     9     ┃     +     ┃
+//             ┃   Insert  ┃   HOME    ┃     UP    ┃    END    ┃   P UP    ┃   ┃     *     ┃     7     ┃     8     ┃     9     ┃     +     ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
 //             ┃   SHIFT   ┃   LEFT    ┃    DOWN   ┃   RIGHT   ┃  P DOWN   ┃   ┃     /     ┃     4     ┃     5     ┃     6     ┃     -     ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
@@ -105,7 +105,7 @@ label= "NAVI"                              ;
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp ESC     &kp HOME    &kp UP      &kp END     &kp PG_UP   &kp KP_MULTIPLY &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_PLUS
+                &kp INS     &kp HOME    &kp UP      &kp END     &kp PG_UP   &kp KP_MULTIPLY &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_PLUS
                 &kp LSHFT   &kp LEFT    &kp DOWN    &kp RIGHT   &kp PG_DN   &kp KP_DIVIDE   &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS
  &studio_unlock &kp CAPS    &none       &kp LPAR    &kp RPAR    &none           &kp DOT     &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_EQUAL  &trans      
                                         &trans      &trans      &trans          &trans      &kp KP_N0   &trans      
@@ -120,21 +120,21 @@ label= "NAVI"                              ;
 label= "SYM"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃     !     ┃     @     ┃     #     ┃     $     ┃     %     ┃   ┃     ˆ     ┃     &     ┃     Ü     ┃     '     ┃     "     ┃
+//             ┃   [   {   ┃  ]    }   ┃   =   +   ┃    |      ┃           ┃   ┃   `   ~   ┃     &     ┃     *     ┃           ┃     +     ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃     Ä     ┃           ┃    SZ     ┃           ┃           ┃   ┃   MUTE    ┃   YEN     ┃   EURO    ┃  POUND    ┃     Ö     ┃
+//             ┃     (     ┃     )     ┃     _     ┃   '   "   ┃     "     ┃   ┃           ┃     $     ┃     %     ┃     ^     ┃     -     ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃           ┃  EMAIL1   ┃  EMAIL2   ┃           ┃           ┃           ┃   ┃   VOL-    ┃   VOL+    ┃   LAST    ┃   NEXT    ┃     \     ┃           ┃
+// ┃   SHIFT   ┃   \   |   ┃  /    ?   ┃           ┃           ┃           ┃   ┃           ┃     !     ┃     @     ┃     #     ┃           ┃   SHIFT   ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃           ┃    GIF    ┃    ADJ    ┃   ┃           ┃           ┃           ┃
+//                                     ┃    ESC    ┃    TAB    ┃    SPC    ┃   ┃    BSPC   ┃   ENTER   ┃    DEL    ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp EXCL    &kp AT      &kp HASH    &kp DLLR    &kp PRCNT       &kp CARET   &kp AMPS    &kp RA(U)   &kp SQT     &kp DQT       
-                &kp RA(A)   &trans      &kp RA(S)   &trans      &trans          &kp C_MUTE  &kp LS(RA(N4)) &kp RA(N5) &kp RA(N4)   &kp RA(O) 
-    &trans      &kp RA(F18) &kp RA(F19) &trans      &trans      &trans          &kp C_VOL_DN &kp C_VOL_UP &kp C_PREV &kp C_NEXT  &kp BSLH   &trans         
-                                        &trans      &gif        &mo ADJ         &trans      &kp C_PP    &trans      
+                &kp LBKT    &kp RBKT    &kp EQUAL   &kp PIPE    &kp PRCNT       &kp GRAVE   &kp AMPS    &kp STAR   &kp SQT     &kp PLUS       
+                &kp LPAR    &kp RPAR    &kp UNDER   &kp SQT     &kp DQT          &kp C_MUTE  &kp DLLR &kp DLLR &kp CARET   &kp MINUS 
+    &trans      &kp BSLH    &kp FSLH    &trans      &trans      &trans          &kp C_VOL_DN &kp EXCL &kp AT &kp POUND  &kp BSLH   &trans         
+                                        &trans      &trans      &trans          &trans      &trans      &trans       
                         >;
                 };
 
